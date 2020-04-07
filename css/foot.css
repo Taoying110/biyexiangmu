@@ -1,0 +1,35 @@
+#foot {
+    float: left;
+    width: 1357px;
+    height: 200px;
+    margin-left: -8px;
+    background: #292E34;
+}
+
+.foot_li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    color: gray;
+    margin-left: 120px;
+}
+
+.foot_li a:focus,
+.foot_li a:hover {
+    margin-left: 3px;
+}
+
+.foot_title {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.footer {
+    float: left;
+    width: 1357px;
+    height: 50px;
+    margin-left: -8px;
+    text-align: center;
+    color: darkgray;
+    background: #22262A;
+}

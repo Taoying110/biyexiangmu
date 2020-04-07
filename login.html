@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css1/iconfont.css" type="text/css" />
+    <link rel="stylesheet" href="./css/login.css" type="text/css" />
+
+    <title>IMGCMS-图片管理系统-登录</title>
+</head>
+
+<body scroll="no" style="overflow-x:hidden">
+
+    <div class="login">
+        <div class="log_box">
+            <span class="log_dx">登录</span>
+            <i class="iconfont rl-close" id="rl-close" onclick="close()">&#xe7fc;</i>
+            <div id="entry">
+                <div class="">
+                    <div class="">
+                        <form name="login" action="login.php" method="post">
+
+                            <div class="log_rectangle">
+                                <input type="text" maxlength="37" name="name" id="username" class="log_rec" placeholder="请输入用户名">
+                                <p class="log_op">请输入用户名</p>
+                            </div>
+                            <div class="log_rectangle">
+                                <input type="text" name="password" placeholder="请输入密码" maxlength="16" id="password" class="log_rec">
+                                <p class="log_op">请输入6-16位密码,区分大小写,不能用空格</p>
+                            </div>
+
+                            <div class="log_foo">
+                                <label for="" class="" hidefocus="true">
+                                    <input type="checkbox" checked="checked" class="" id="">7天内自动登录
+                                </label>
+                                <a href="javascript:undefined" class="" target="_blank" hidefocus="true">找回密码</a>
+                                <a href="register.html" class="" target="_blank" hidefocus="true">暂未注册</a>
+                            </div>
+
+                            <div class="log_foot">
+                                <input type="submit" name="submit" value="登录" class="log_foot1" id="">
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+                <div class="log_footer">
+                    <div class="log_pop clearfix">
+                        <span class="rlf-other" style="color:red">其他方式登录</span>
+                        <a href="javascript:void(0)" hidefocus="true" class=""><i class="iconfont">&#xe883;</i></a>
+                        <a href="javascript:void(0)" hidefocus="true" class=""><i class="iconfont">&#xe884;</i></a>
+                        <a href="javascript:void(0)" hidefocus="true" class=""><i class="iconfont">&#xe882;</i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script>
+        $("#username").focus(function() {
+            $(this).next().css("opacity", 1);
+        }).blur(function() {
+            $(this).next().css("opacity", 0);
+        })
+        $("#password").focus(function() {
+            $(this).next().css("opacity", 1);
+        }).blur(function() {
+            $(this).next().css("opacity", 0);
+        })
+        $("#rl-close").click(function() {
+            this.style.border = "solid 1px gray";
+            setTimeout(function() {
+                    window.location.href = "home.html";
+                })
+                // location.href = "home.html";
+        })
+    </script>
+    <!-- <form name="login" action="login.php" method="post">
+        <p>用户名<input type="text" name="name" placeholder=""></p>
+        <p>密 码<input type="password" name="password" placeholder=""></p>
+        <p><input type="submit" name="submit" value="登录"></p>
+         <p><input type="button" value="注册" onclick="register();"></p> 
+    </form> -->
+
+</body>
+
+</html>

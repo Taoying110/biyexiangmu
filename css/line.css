@@ -1,0 +1,120 @@
+.line {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.x1 {
+    float: left;
+    position: relative;
+    width: 18%;
+    margin-left: 60px;
+    min-height: 1px;
+}
+
+.pro {
+    width: 284px;
+    height: 169px;
+}
+
+.p01 {
+    background: #309AD8;
+}
+
+.p02 {
+    background: #FF5D43;
+    margin: 0 0 0 4px;
+}
+
+.p03 {
+    background: #33D2B9;
+    margin: 0 0 0 9px;
+}
+
+.p04 {
+    background: #3D475A;
+    margin: 0 0 0 13px;
+}
+
+.pro .item {
+    padding: 20px 22px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.pro .item strong {
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.pro .item span {
+    display: block;
+    width: 74px;
+    height: 70px;
+    float: right;
+}
+
+.pro .x4 {
+    text-align: center;
+    line-height: 42px;
+    color: #fff;
+}
+
+.pro .x4 a {
+    color: #fff;
+}
+
+.pro .x4 a:hover {
+    color: #ff0;
+}
+
+.p01 .line1 {
+    background: #1B81BC;
+}
+
+.p01 .line1 .x4 {
+    border-right: 1px solid #309AD8;
+}
+
+.p02 .line1 {
+    background: #E54A31;
+}
+
+.p02 .line1 .x4 {
+    border-right: 1px solid #FF5D43;
+}
+
+.p03 .line1 {
+    background: #23B8A1;
+}
+
+.p03 .line1 .x4 {
+    border-right: 1px solid #33D2B9;
+}
+
+.p04 .line1 {
+    background: #303A4D;
+}
+
+.p04 .line1 .x4 {
+    border-right: 1px solid #3D475A;
+}
+
+.pro .line1 .x4:last-child {
+    border-right: 0;
+}
+
+.photo1 {
+    float: left;
+    margin-top: -127px;
+    margin-left: 164px;
+}
+
+.photo2 {
+    float: left;
+    margin-top: 28px;
+    margin-left: 58px;
+}

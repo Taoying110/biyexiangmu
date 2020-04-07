@@ -1,0 +1,138 @@
+.showTop {
+    float: left;
+    width: 1349px;
+    height: 500px;
+    margin-left: 0px;
+    margin-top: 84px;
+}
+
+.showLow {
+    float: left;
+    width: 1340px;
+    height: 500px;
+}
+
+.show {
+    float: left;
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+.border0 {
+    float: left;
+    width: 800px;
+    height: 400px;
+    margin-left: -100px;
+    margin-top: 60px;
+}
+
+.s1 {
+    float: left;
+    position: relative;
+    line-height: 10px;
+    width: 260px;
+    height: 200px;
+    margin: 3px;
+}
+
+.size img {
+    width: 260px;
+    height: 200px;
+}
+
+p {
+    position: absolute;
+    bottom: -17px;
+    display: block;
+    width: 260px;
+    height: 0x;
+    line-height: 40px;
+    text-align: center;
+    background: lightseagreen;
+    color: rgb(75, 9, 230);
+    transition: all .3s;
+}
+
+.h:hover {
+    height: 40px;
+}
+
+.s1 a {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+
+.news {
+    float: left;
+    font-size: 25px;
+    margin-left: 880px;
+    margin-top: -444px;
+}
+
+.border {
+    float: left;
+    width: 360px;
+    height: 300px;
+    margin-left: 890px;
+    margin-top: -400px;
+    border: 1px gray solid;
+}
+
+.border1 {
+    float: left;
+    border-top: 0;
+    overflow: hidden;
+    width: 360px;
+    height: 100px;
+    margin-left: 890px;
+    margin-top: -99px;
+    border: 1px gray solid;
+}
+
+.border1 li span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #dedede;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.border1 li a:focus,
+.border1 li a:hover {
+    color: #f30;
+    margin-left: 2px;
+}
+
+.news .border1 ul {
+    margin: 7px 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.news .border1 ul li {
+    line-height: 35px;
+}
+
+.news .border1 ul li span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: #dedede;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.news .border1 ul li span.active {
+    background: #FF5D43;
+}
+
+img {
+    border: 0;
+    vertical-align: bottom;
+}

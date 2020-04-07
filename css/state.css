@@ -1,0 +1,136 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#state {
+    background: #339DDC url(../image/state.png) no-repeat;
+    width: 1349px;
+    height: 250px;
+    margin-left: -8px;
+    z-index: 1;
+}
+
+.state_title {
+    float: left;
+    margin-left: 65px;
+    margin-top: -230px;
+    font-size: 20px;
+    color: white;
+}
+
+.state_title1 {
+    float: left;
+    margin-left: 0px;
+    margin-top: -20px;
+    font-size: 14px;
+    color: white;
+}
+
+#state1 {
+    margin: 0 auto;
+    width: 1190px;
+    height: 400px;
+    margin-top: -84px;
+    z-index: 2;
+    background: white;
+    box-shadow: 1px 1px 10px gray;
+}
+
+.state1_size {
+    float: left;
+    font-size: 24px;
+    margin-left: 33px;
+    margin-top: -65px;
+    color: #444;
+}
+
+.state1_a {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-left: -531px;
+    margin-top: 68px;
+}
+
+.button {
+    float: left;
+    width: 93px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: -1px;
+    text-decoration: none;
+    color: gray;
+    border: 1px gray solid;
+}
+
+.state1_a a:focus,
+.state1_a a:hover {
+    color: #f30;
+}
+
+.state1_li {
+    list-style: none;
+}
+
+.state1_li li span {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: #dedede;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.state1_li li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #444;
+}
+
+.state1_li li a:focus,
+.state1_li li a:hover {
+    margin-left: 2px;
+    color: #f30;
+}
+
+.dash {
+    border-bottom: 1px dashed;
+}
+
+.state1_active {
+    text-align: center;
+}
+
+.state1_active a {
+    display: inline-block;
+    /* 行内非替换元素的高宽问题 */
+    padding: 7px 10px;
+    border: 1px solid #90CBF9;
+    margin-left: -1px;
+    margin-top: 20px;
+    font-family: "黑体";
+}
+
+a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.active1 {
+    color: rgb(230, 225, 225);
+    background: #90CBF9;
+}
+
+.active2 {
+    color: black;
+}
+
+.active2:hover {
+    background: #09A3DC;
+    color: white;
+}

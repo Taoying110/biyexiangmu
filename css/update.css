@@ -1,0 +1,35 @@
+.update {
+    float: left;
+    width: 1355px;
+    height: 260px;
+    margin-left: -8px;
+    background-color: #80808017;
+}
+
+.update_size {
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+.update_item {
+    float: left;
+    margin-left: 40px;
+}
+
+.update_li {
+    float: left;
+    width: 300px;
+    height: 200px;
+}
+
+.update_title {
+    font-size: 30px;
+    margin-left: 60px;
+}
+
+.update_hover ul li a:focus,
+.update_hover ul li a:hover {
+    color: #f30;
+    margin-left: 4px;
+}
